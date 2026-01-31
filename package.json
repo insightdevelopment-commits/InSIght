@@ -1,0 +1,41 @@
+{
+  "name": "insight-backend",
+  "version": "1.0.0",
+  "description": "Backend for InSight - Algorithmic Career Guidance Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "keywords": [
+    "oauth",
+    "google",
+    "authentication",
+    "career-guidance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@prisma/client": "^5.22.0",
+    "connect-mongo": "^6.0.0",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "groq-sdk": "^0.37.0",
+    "mongodb": "^7.0.0",
+    "multer": "^2.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdf-parse": "^2.4.5",
+    "supabase": "^2.74.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^5.22.0"
+  }
+}
